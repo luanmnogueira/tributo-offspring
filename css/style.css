@@ -1,0 +1,90 @@
+/*Definição geral para o HTML*/
+html{
+    font-family: Poppins;
+    background-color: #000000;
+}
+
+.container{
+    max-width: 1100px;
+    background-color: #fff;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+    border-radius: 24px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/*header*/
+.header{
+    text-align: center;
+}
+
+.main-title{
+    font-size: 40px;
+    font-family: 'Protest Strike';
+}
+
+.main-paragraph{
+    font-style: italic;
+}
+
+.featured-image{
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.featured-image img{
+    border-radius: 24px;
+}
+
+/*Biografia*/
+.biography-container{
+    padding: 25px 0;
+    margin: 20px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+/*Container de citação*/
+.quotes-container{
+    background-color: #000000;
+    color: #ddd;
+    padding: 30px;
+    border-radius: 24px;
+    margin: 50px;
+}
+
+.quotes-container blockquote{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.quotes-container p{
+    font-style: italic;
+}
+
+/*Curiosidades*/
+.curiosities-container{
+    padding: 25px 0;
+    margin: 20px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.curiosities-container li{
+    height: 30px;
+}
+
+/*Imagem bold*/
+.img-bold{
+    font-weight: bold;
+    text-align: center;
+}
+
+.img-bold img{
+    border-radius: 24px;
+}
